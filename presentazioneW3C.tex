@@ -1,18 +1,61 @@
 \documentclass{beamer}
-\usetheme{Boadilla}
-\usecolortheme{seahorse}
+\usetheme{moloch}
+\useinnertheme{moloch}
+\usefonttheme{moloch}
+\setbeamertemplate{itemize items}[triangle]
+%\usecolortheme{seahorse} 
 \title{Worspace 365 Canva}
-\author{Claudio Duchi}
+\author{\texorpdfstring{John Doe\newline\url{info@iisperugia.net}}{John Doe}}
+%\author{}
 \begin{document}
-\begin{frame}[plain]
+\begin{frame}%[plain]
     \maketitle
+ 
+ 
 \end{frame}
+\begin{frame}{Sommario}
+	\tableofcontents
+\end{frame}
+\section{Introduzione}
 \begin{frame}{Quattro chiacchiere}
 	La nostra scuola ha 3 ambienti 
-	\begin{enumerate}[(I)]
+	\begin{itemize}[(I)]
 		\item<1-> Google Workspace for Education Fundamentals
 		\item<2-> Microsoft 365
 		\item<3-> Canva
-	\end{enumerate}
+	\end{itemize}
+\end{frame}
+\section{Google Workspace}
+\begin{frame}{Google Workspace}
+ Google Workspace ha tre compiti
+	\begin{itemize}[(I)]
+		\item<1-> Gestire la posta
+		\item<2-> Gsiute 
+		\item<3-> SSO
+		\begin{itemize}
+			\item<4->Microsof 365
+			\item<5->Canva
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\section{SSO}
+\begin{frame}{SSO}
+	\begin{alertblock}{SSO}
+	Single Sign-On (SSO) è uno strumento di autenticazione che consente agli utenti di accedere in modo sicuro a più applicazioni e servizi utilizzando un unico set di credenziali, eliminando la necessità di ricordare password diverse per ciascun servizio\footnote{Informazione ricavata da https://www.okta.com/blog/2021/02/single-sign-on-sso/ consultato il 27/07/2024}.
+	\end{alertblock}
+\end{frame}
+\begin{frame}{Unico utente e unica password}
+	\begin{alertblock}{Unico utente e unica password}
+	nome.cognome.doc@iisperugia.net
+	
+	password 
+	
+Danno accesso a tutte le piattaforme della scuola
+	\end{alertblock}
+\end{frame}
+\begin{frame}[ standout ]
+\centering
+\Huge\bfseries
+\textcolor{orange}{The End}
 \end{frame}
 \end{document}
