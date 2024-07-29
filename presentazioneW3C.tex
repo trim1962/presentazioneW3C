@@ -1,8 +1,18 @@
 \documentclass{beamer}
-\usetheme{moloch}
-\useinnertheme{moloch}
-\usefonttheme{moloch}
-\setbeamertemplate{itemize items}[triangle]
+%\documentclass{article}
+%\usepackage{beamerarticle}
+\mode<article>{\usepackage{fullpage}}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{english}
+
+\PolyglossiaSetup{italian}{indentfirst=false}
+\mode<presentation>{\usetheme{moloch}}
+\mode<presentation>{\useinnertheme{moloch}}
+\mode<presentation>{\usefonttheme{moloch}}
+\mode<presentation>{\setbeamertemplate{itemize items}[triangle]}
+
 %\usecolortheme{seahorse} 
 \title{Worspace 365 Canva}
 \author{\texorpdfstring{John Doe\newline\url{info@iisperugia.net}}{John Doe}}
@@ -76,8 +86,35 @@ Abbiamo in deposito documenti personali e quindi, alla cessazione, tali document
 	\end{alertblock}
 \end{frame}
 \subsection{Proprietario}
-\begin{frame}{Proprietario}
-	contenuto...
+\begin{frame}[standout]{Proprietario}
+	\begin{block}{Proprietario}
+	Qualunque utente che crei qualcosa in WorkSpace è un proprietario
+	\end{block}
+\end{frame}
+\begin{frame}{Proprietario e gli altri}
+	\begin{block}{Proprietario e gli altri}
+	Un Proprietario concede agli altri le sue cose impostando vari livelli di accesso.
+	\end{block}
+	\begin{alertblock}{Accesso}
+		Con i livelli di accesso non viene trasferita la proprietà  
+	\end{alertblock}
+	\begin{exampleblock}{Esistenza}
+		Il documento, drive, etc. esiste finché  l'utente esiste.
+	\end{exampleblock}
+\end{frame}
+\subsection{Drive personali Vs Drive condivisi}
+\begin{frame}{Drive personali Vs Drive condivisi}
+	\begin{alertblock}{Drive personali}
+	 Condivido con gli altri ma mantengo la proprietà
+	\end{alertblock}
+	\begin{block}{Drive Condivisi}
+		Condivido con gli altri ma perdo la proprietà
+	\end{block}
+\end{frame}
+\section{Navigazione Incognita}
+\begin{frame}{Navigazione Incognita}
+\centering
+\includegraphics[width=0.50\textwidth]{navinc}
 \end{frame}
 \begin{frame}[standout]
 \centering
